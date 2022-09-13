@@ -2,6 +2,7 @@ package com.example.myaplicaciondeprueba;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -76,4 +77,5 @@ public class RelativeActivity extends AppCompatActivity {
         boolean chequeado = elementochec.isChecked();
         Toast.makeText(this,"==>"+chequeado,Toast.LENGTH_LONG).show();
     }
+
 }

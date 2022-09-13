@@ -92,4 +92,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }
     }
+
+    public void llamarImagenView(View view) {
+        Intent imginten = new Intent(this,ImagenActivity.class);
+        startActivity(imginten);
+    }
 }
