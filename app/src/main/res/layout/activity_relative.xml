@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/tvTituloAveria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:text="TextView"
+        android:layout_alignTop="@+id/imageViewLogo"
+        android:layout_toRightOf="@+id/imageViewLogo"
+        android:layout_toEndOf="@+id/imageViewLogo"
+         />
+
+    <TextView
+        android:id="@+id/tvModeloCoche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTituloAveria"
+        android:layout_alignStart="@+id/tvTituloAveria"
+        android:layout_below="@+id/tvTituloAveria"
+        android:layout_marginTop="1dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="179dp"
+        android:layout_height="194dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="24dp"
+        android:drawableTop="@drawable/ic_launcher_foreground"
+        android:text="Button" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="370dp"
+        android:onClick="tipoAveria"
+        android:text="Mecanica" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="304dp"
+        android:onClick="tipoAveria"
+        android:text="Averia" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="247dp"
+        android:onClick="tipoAveria"
+        android:text="Novedad" />
+
+    <RadioGroup
+        android:id="@+id/radioGrupo1"
+        android:layout_width="110dp"
+        android:layout_height="317dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="301dp"
+        android:layout_below="@+id/imageViewLogo">
+
+        <RadioButton
+            android:id="@+id/radioBtn1"
+            android:layout_width="121dp"
+            android:layout_height="100dp"
+
+            android:onClick="tipoAveriaRAdio"
+            android:text="Mecanica" />
+
+        <RadioButton
+            android:id="@+id/radioBtn2"
+            android:layout_width="121dp"
+            android:layout_height="100dp"
+
+            android:onClick="tipoAveriaRAdio"
+            android:text="Averia" />
+
+        <RadioButton
+            android:id="@+id/radioBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tipoAveriaRAdio"
+            android:text="Novedad" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="validarBtnRadioValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="311dp"
+        android:layout_marginBottom="293dp"
+        android:text="Valida radio" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="166dp"
+        android:onClick="isCheckeado"
+        android:text="ToggleButton" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="624dp"
+        app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
+
+
+</RelativeLayout>
