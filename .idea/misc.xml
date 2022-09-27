@@ -3,15 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.243" />
         <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.1985" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.151" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/drawable/ic_baseline_refresh_white.xml" value="0.1" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/drawable/ic_baseline_white_refresh_24.xml" value="0.243" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/drawable/ic_launcher_background.xml" value="0.243" />
         <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity2_main.xml" value="0.2" />
         <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_alarmas.xml" value="0.2" />
-        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_constrain_layout.xml" value="0.23143115942028986" />
-        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_imagen.xml" value="0.23143115942028986" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_comunicacion.xml" value="0.17135416666666667" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_constrain_layout.xml" value="0.1" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_dinamico_frag.xml" value="0.1" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_fracment_list.xml" value="0.17135416666666667" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_fracmentos.xml" value="0.23958333333333334" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_fragmento_dinamico.xml" value="0.2" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_imagen.xml" value="0.1" />
         <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_main2.xml" value="0.14114583333333333" />
         <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_relative.xml" value="0.2536443148688047" />
         <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/activity_secundario.xml" value="0.25" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/content_dinamico_frag.xml" value="0.1546875" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/content_fragmento_dinamico.xml" value="0.1828125" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/fragment_averia_list.xml" value="0.17135416666666667" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/fragment_controles.xml" value="0.25416666666666665" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/fragment_first2.xml" value="0.25416666666666665" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/fragment_primer.xml" value="0.23958333333333334" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/main/res/layout/fragment_segundoragment.xml" value="0.25416666666666665" />
         <entry key="..\:/proyectosVariosAndroid/myaplicaciondeprueba/app/src/release/res/layout/activity_main2.xml" value="0.12708333333333333" />
       </map>
     </option>

@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, OnControlesFragmentListener {
     TextView texto;
     private int i;
 
@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.i("VER: ","ver todo");
        // texto = findViewById(R.id.tvMsg);
         //texto.setOnClickListener(this);
+        getSupportFragmentManager().beginTransaction().add(R.id.contenedorComu, new ControlesFragment()).commit();
     }
 
     @Override
@@ -96,5 +97,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void llamarImagenView(View view) {
         Intent imginten = new Intent(this,ImagenActivity.class);
         startActivity(imginten);
+    }
+
+    public void llamarFracment(View view) {
+        Intent imginten = new Intent(this,FracmentosActivity.class);
+        startActivity(imginten);
+    }
+
+    public void llamarFracmentDinamico(View view) {
+        Intent imginten = new Intent(this,DinamicoFragActivity.class);
+        startActivity(imginten);
+    }
+
+    public void verListafragment(View view) {
+        Intent lista = new Intent(this,FracmentListActivity.class);
+        startActivity(lista);
+    }
+
+    public void llamarComunicacion(View view) {
+        Intent comu = new Intent(this,ControlesFragment.class);
+        startActivity(comu);
+    }
+
+    @Override
+    public void botonColorClicked(String color) {
+        Toast.makeText(this,"Estoy en color" + color, Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void botonTextoClicked(String texto) {
+        Toast.makeText(this,"Estoy en texto" + texto, Toast.LENGTH_LONG).show();
     }
 }

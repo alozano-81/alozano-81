@@ -57,4 +57,36 @@
         android:layout_weight="1"
         android:text="Llamarimg" />
 
+    <Button
+        android:id="@+id/button5"
+        android:onClick="llamarFracment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Fracment" />
+
+    <Button
+        android:id="@+id/button6"
+        android:onClick="llamarFracmentDinamico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="FragDinamico" />
+
+    <Button
+        android:id="@+id/button8"
+        android:onClick="verListafragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="list fragment" />
+
+    <Button
+        android:id="@+id/button7"
+        android:onClick="llamarComunicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ComuincacionFrac" />
+
 </LinearLayout>
